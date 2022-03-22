@@ -52,10 +52,6 @@ public class VideoGame extends PApplet
     public void mouth(float mouthX, float mouthY)
     {
         fill(0,0,0);
-        //arc(mouthX + 370, mouthY + 250, 100, 70, 0, 3);
-        //line(200, 300, 100, 30);
-        //line(100, 80, 140, 125);
-        //line(400, 300, 350, 300);
         arc(mouthX + 365, mouthY + 250, 100, 50, 0, 3);
     }
 }
